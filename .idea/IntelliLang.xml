@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="LanguageInjectionConfiguration">
+    <injection language="CSS" injector-id="java">
+      <display-name>Selenium CSS (geb)</display-name>
+      <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("$").withParameters("java.lang.String").definedInClass("geb.Module"))]]></place>
+      <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("$").withParameters("java.lang.String").definedInClass("geb.Page"))]]></place>
+      <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("$").withParameters("java.lang.String").definedInClass("geb.content.NavigableSupport"))]]></place>
+      <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("$").withParameters("java.lang.String").definedInClass("geb.navigator.Locator"))]]></place>
+      <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("$").withParameters("java.lang.String").definedInClass("geb.navigator.Navigator"))]]></place>
+      <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("$").withParameters("java.lang.String", "int").definedInClass("geb.Module"))]]></place>
+      <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("$").withParameters("java.lang.String", "int").definedInClass("geb.Page"))]]></place>
+      <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("$").withParameters("java.lang.String", "int").definedInClass("geb.content.NavigableSupport"))]]></place>
+      <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("$").withParameters("java.lang.String", "int").definedInClass("geb.navigator.Locator"))]]></place>
+      <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("$").withParameters("java.lang.String", "int").definedInClass("geb.navigator.Navigator"))]]></place>
+      <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("find").withParameters("java.lang.String").definedInClass("geb.Module"))]]></place>
+      <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("find").withParameters("java.lang.String").definedInClass("geb.Page"))]]></place>
+      <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("find").withParameters("java.lang.String").definedInClass("geb.content.NavigableSupport"))]]></place>
+      <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("find").withParameters("java.lang.String").definedInClass("geb.navigator.Locator"))]]></place>
+      <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("find").withParameters("java.lang.String").definedInClass("geb.navigator.Navigator"))]]></place>
+      <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("find").withParameters("java.lang.String", "int").definedInClass("geb.Module"))]]></place>
+      <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("find").withParameters("java.lang.String", "int").definedInClass("geb.Page"))]]></place>
+      <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("find").withParameters("java.lang.String", "int").definedInClass("geb.content.NavigableSupport"))]]></place>
+      <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("find").withParameters("java.lang.String", "int").definedInClass("geb.navigator.Locator"))]]></place>
+      <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("find").withParameters("java.lang.String", "int").definedInClass("geb.navigator.Navigator"))]]></place>
+      <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("find", "has", "filter", "not", "hasNot", "add", "next", "nextAll", "nextUntil", "previous", "prevAll", "prevUntil", "parent", "parents", "parentsUntil", "closest", "children", "siblings").withParameters("java.lang.String").definedInClass("geb.navigator.Navigator"))]]></place>
+      <place><![CDATA[psiParameter().ofMethod(1, psiMethod().withName("$").withParameters("java.util.Map", "java.lang.String").definedInClass("geb.Module"))]]></place>
+      <place><![CDATA[psiParameter().ofMethod(1, psiMethod().withName("$").withParameters("java.util.Map", "java.lang.String").definedInClass("geb.Page"))]]></place>
+      <place><![CDATA[psiParameter().ofMethod(1, psiMethod().withName("$").withParameters("java.util.Map", "java.lang.String").definedInClass("geb.content.NavigableSupport"))]]></place>
+      <place><![CDATA[psiParameter().ofMethod(1, psiMethod().withName("$").withParameters("java.util.Map", "java.lang.String").definedInClass("geb.navigator.Locator"))]]></place>
+      <place><![CDATA[psiParameter().ofMethod(1, psiMethod().withName("$").withParameters("java.util.Map", "java.lang.String").definedInClass("geb.navigator.Navigator"))]]></place>
+      <place><![CDATA[psiParameter().ofMethod(1, psiMethod().withName("$").withParameters("java.util.Map", "java.lang.String", "int").definedInClass("geb.Module"))]]></place>
+      <place><![CDATA[psiParameter().ofMethod(1, psiMethod().withName("$").withParameters("java.util.Map", "java.lang.String", "int").definedInClass("geb.Page"))]]></place>
+      <place><![CDATA[psiParameter().ofMethod(1, psiMethod().withName("$").withParameters("java.util.Map", "java.lang.String", "int").definedInClass("geb.content.NavigableSupport"))]]></place>
+      <place><![CDATA[psiParameter().ofMethod(1, psiMethod().withName("$").withParameters("java.util.Map", "java.lang.String", "int").definedInClass("geb.navigator.Locator"))]]></place>
+      <place><![CDATA[psiParameter().ofMethod(1, psiMethod().withName("$").withParameters("java.util.Map", "java.lang.String", "int").definedInClass("geb.navigator.Navigator"))]]></place>
+      <place><![CDATA[psiParameter().ofMethod(1, psiMethod().withName("$", "find", "has", "filter", "not", "hasNot", "next", "nextAll", "nextUntil", "previous", "prevAll", "prevUntil", "parent", "parents", "parentsUntil", "closest", "children", "siblings").withParameters("java.util.Map", "java.lang.String").definedInClass("geb.navigator.Navigator"))]]></place>
+      <place><![CDATA[psiParameter().ofMethod(1, psiMethod().withName("find").withParameters("java.util.Map", "java.lang.String").definedInClass("geb.navigator.BasicLocator"))]]></place>
+      <place><![CDATA[psiParameter().ofMethod(1, psiMethod().withName("find").withParameters("java.util.Map", "java.lang.String", "groovy.lang.Range").definedInClass("geb.navigator.BasicLocator"))]]></place>
+      <place><![CDATA[psiParameter().ofMethod(1, psiMethod().withName("find").withParameters("java.util.Map", "java.lang.String", "int").definedInClass("geb.navigator.BasicLocator"))]]></place>
+    </injection>
+  </component>
+</project>
