@@ -6,11 +6,11 @@ import pages.BasicPage;
 public class BasicPageDef {
     BasicPage basicPage = new BasicPage();
 
-    @Then("Click {string} button")
+    @Then("Нажмем на кнопку {string}")
     public void clickButton(String arg0) {
         basicPage.clickButton(arg0);
     }
-    @Then("Click {string} button1")
+    @Then("Нажмем на кнопку {string}")
     public void clickButton1(String arg1) {
         basicPage.clickButton(arg1);
     }
