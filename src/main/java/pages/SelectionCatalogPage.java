@@ -8,6 +8,10 @@ public class SelectionCatalogPage {
 
         $(By.xpath("//div[@id='" + text + "']")).click();
 
-    }
+  }
+    public static void clickButtonGoBasket(String text) {
 
+        $(By.xpath("//i[@class='" + text + "']")).click();
+
+    }
 }
