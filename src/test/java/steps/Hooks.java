@@ -8,6 +8,6 @@ public class Hooks {
 
     @Before
     public void openUrl() {
-        open("https://www.wildberries.ru/");
+        open("https://ibays.ru/");
     }
 }

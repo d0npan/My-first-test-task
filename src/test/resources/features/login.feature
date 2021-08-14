@@ -1,6 +1,10 @@
-# language: ru
-Функция: Добавление товара в корзину
 
-  Сценарий: Добавление товара в корзину
-    Допустим Нажмем на кнопку "Навигация по сайту"
-    Допустим Нажмем на кнопку "Мужчинам"
+Feature: Add product from basket
+
+  Scenario: Open catalog
+    Then Click "Все товары" button
+    Then Click "Bootstrap Шаблоны" item
+
+
+
+
