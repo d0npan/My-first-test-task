@@ -1,9 +1,13 @@
 package pages;
 
-public class SelectionCatalogPage {
-  /* public static void clickButtonProduct(String text) {
+import org.openqa.selenium.By;
+import static com.codeborne.selenide.Selenide.$;
 
-        $(By.xpath("//li/a[text()='" + text + "']")).click();
-    }*/
+public class SelectionCatalogPage {
+  public static void clickButtonAddBasket(String text) {
+
+        $(By.xpath("//div[@id='" + text + "']")).click();
+
+    }
 
 }

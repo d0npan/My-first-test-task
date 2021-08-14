@@ -5,14 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b7a646c6-6a9d-4ba8-b56b-31e53ab48495" name="Changes" comment="Начало проекта по тестированию работы интернет магазина">
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/ChooseInCatalogPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/pages/ActionsCardPage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/steps/ActionsCardPageDef.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/pages/RegistrationPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/pages/SelectionCatalogPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/pages/SelectionCatalogPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/pages/SignInPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/steps/RegistrationPageDef.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/steps/SelectionCatalogPageDef.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/steps/SelectionCatalogPageDef.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/steps/SignInPageDef.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/test/features/one_step.feature" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/test/features/one_step.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/tmp/compileTestJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileTestJava/previous-compilation-data.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/ActionsCardPage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/steps/ActionsCardPageDef.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/steps/ChooseInCatalogPageDef.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/RegistrationPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/SelectionCatalogPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/SelectionCatalogPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/steps/RegistrationPageDef.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/steps/SelectionCatalogPageDef.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/steps/SelectionCatalogPageDef.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/features/one_step.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/one_step.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -200,7 +206,7 @@
       <workItem from="1628795806696" duration="71000" />
       <workItem from="1628795950999" duration="12531000" />
       <workItem from="1628849872299" duration="4407000" />
-      <workItem from="1628940654560" duration="17415000" />
+      <workItem from="1628940654560" duration="19328000" />
     </task>
     <task id="LOCAL-00001" summary="Начало проекта по тестированию работы интернет магазина">
       <created>1628664827200</created>
@@ -300,7 +306,21 @@
       <option name="project" value="LOCAL" />
       <updated>1628960246533</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Начало проекта по тестированию работы интернет магазина">
+      <created>1628961963516</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1628961963516</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Начало проекта по тестированию работы интернет магазина">
+      <created>1628961972829</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1628961972829</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
