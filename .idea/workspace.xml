@@ -5,24 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b7a646c6-6a9d-4ba8-b56b-31e53ab48495" name="Changes" comment="Начало проекта по тестированию работы интернет магазина">
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/ChooseInCatalogPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/pages/ActionsCardPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/pages/ActionsCardPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/pages/BasicPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/pages/BasicPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/pages/SelectionCatalogPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/pages/SelectionCatalogPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/steps/ActionsCardPageDef.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/steps/ActionsCardPageDef.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/steps/BasicPageDef.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/steps/BasicPageDef.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/steps/Hooks.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/steps/Hooks.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/steps/SelectionCatalogPageDef.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/steps/SelectionCatalogPageDef.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/test/features/login.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/pages/ActionsCardPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/steps/ActionsCardPageDef.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/tmp/compileTestJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileTestJava/previous-compilation-data.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/ActionsCardPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/ActionsCardPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/BasicPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/BasicPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/SelectionCatalogPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/SelectionCatalogPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/steps/ActionsCardPageDef.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/steps/ActionsCardPageDef.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/steps/BasicPageDef.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/steps/BasicPageDef.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/steps/Hooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/steps/Hooks.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/steps/SelectionCatalogPageDef.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/steps/SelectionCatalogPageDef.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/ActionsCardPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/steps/ActionsCardPageDef.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/steps/ChooseInCatalogPageDef.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/features/one_step.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/one_step.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -210,7 +200,7 @@
       <workItem from="1628795806696" duration="71000" />
       <workItem from="1628795950999" duration="12531000" />
       <workItem from="1628849872299" duration="4407000" />
-      <workItem from="1628940654560" duration="15739000" />
+      <workItem from="1628940654560" duration="17415000" />
     </task>
     <task id="LOCAL-00001" summary="Начало проекта по тестированию работы интернет магазина">
       <created>1628664827200</created>
@@ -296,7 +286,21 @@
       <option name="project" value="LOCAL" />
       <updated>1628953223455</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Начало проекта по тестированию работы интернет магазина">
+      <created>1628960237732</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1628960237732</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Начало проекта по тестированию работы интернет магазина">
+      <created>1628960246533</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1628960246533</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
