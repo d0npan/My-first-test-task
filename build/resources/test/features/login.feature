@@ -1,6 +1,10 @@
 
-Feature: Add to basket
+Feature: Add product from basket
 
-  Scenario: Add to basket
-    Then Click "Навигация по сайту" button
-    Then Click "Мужчинам" button1
+  Scenario: Open catalog
+    Then Click "Все товары" button
+    Then Click "Bootstrap Шаблоны" item
+    Then Click "Детали" reference
+
+
+
