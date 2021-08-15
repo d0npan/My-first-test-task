@@ -7,7 +7,7 @@ public class ChooseInCatalogPageDef {
     ChooseInCatalogPage actionsCardPage = new ChooseInCatalogPage();
 
     @Then("Click {string} item")
-    public void clickButtonDetails(String arg0) {
-        actionsCardPage.clickButtonDetails(arg0);
+    public void clickButtonDetails(String arg2) {
+        actionsCardPage.clickButtonDetails(arg2);
     }
 }

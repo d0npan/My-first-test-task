@@ -12,8 +12,8 @@ public class BasicPageDef {
     }
 
     @Then("Click {string} sub_button")
-    public void clickA(String arg0)  {
-        basicPage.clickA(arg0);
+    public void clickA(String arg1)  {
+        basicPage.clickA(arg1);
     }
 
 }

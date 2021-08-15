@@ -1,17 +1,22 @@
 package pages;
 
+import com.codeborne.selenide.Condition;
+import org.openqa.selenium.By;
+
+import static com.codeborne.selenide.Selenide.$;
+import static com.codeborne.selenide.Selenide.$$;
+
 public class ActionsBasketPage {
-    /*
-    public void clickButton(String text) {
 
-        $(By.xpath("//li/span[text()='" + text + "']")).click();
+    public static void openBasketMenu(String text) {
+
+        $($$(By.xpath("//div/a[@target=\"_blank\"]")).findBy(Condition.exactText("Машина р/у 1:10 Краулер MZ 2837 +акб"))).
+                shouldHave(Condition.exactText("" + text + "")).click();
     }
-    public void clickA(String text) {
-
-        $(By.xpath("//li/span/a[text()='" + text + "']")).click();
-    }
-
-
-     */
-
 }
+// assertThat($$(By.target("_blank")).findBy(Condition.exactText("" + text + "")).getText(), equalTo("Страховые полисы");
+// $(By.xpath("//i[@class='" + text + "']")).click();
+//$$(By.xpath("//div/a[@target="_blank"]")).findBy(Condition.exactText("Машина р/у 1:10 Краулер MZ 2837 +акб"));
+//$$(By.target("_blank")).findBy(Condition.exactText("" + text + "")).click();
+
+
