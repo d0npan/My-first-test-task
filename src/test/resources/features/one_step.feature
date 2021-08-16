@@ -1,4 +1,4 @@
-
+#coding: utf-8
 Feature: Add product from basket
 
   Scenario: Open catalog
