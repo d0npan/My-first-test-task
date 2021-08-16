@@ -7,10 +7,14 @@ public class ActionsBasketPageDef {
 
     ActionsBasketPage actionsBasketPage = new ActionsBasketPage();
 
-   @Then("Click {string} menu")
+    @Then("Price product should be {string}") //(?₽)
+    public void equalsPrice(String arg5){
+        actionsBasketPage.equalsPrice(arg5);
+    }
 
-   public void openBasketMenu(String arg5) {actionsBasketPage.openBasketMenu(arg5);
-   }
-
+    @Then("Name product should be {string}")
+    public void equalsName(String arg6){
+        actionsBasketPage.equalsName(arg6);
+    }
 
 }

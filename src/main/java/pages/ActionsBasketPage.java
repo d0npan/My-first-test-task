@@ -1,22 +1,25 @@
 package pages;
 
-import com.codeborne.selenide.Condition;
+import com.codeborne.selenide.SelenideElement;
 import org.openqa.selenium.By;
 
+import static com.codeborne.selenide.Condition.text;
+import static com.codeborne.selenide.Selectors.byText;
 import static com.codeborne.selenide.Selenide.$;
-import static com.codeborne.selenide.Selenide.$$;
 
 public class ActionsBasketPage {
 
-    public static void openBasketMenu(String text) {
-
-        $($$(By.xpath("//div/a[@target=\"_blank\"]")).findBy(Condition.exactText("Машина р/у 1:10 Краулер MZ 2837 +акб"))).
-                shouldHave(Condition.exactText("" + text + "")).click();
-    }
+        public void equalsPrice(String text){
+            SelenideElement price =
+                    $(By.xpath("//div[@class='kbb_basket__price']")).find(byText("2 990 ₽")); //[text()='2 990 ₽']
+            price.shouldBe(text("" + text + ""));
+        }
+        public void equalsName(String text){
+            SelenideElement name =
+                    $(By.xpath("//div/a[@target='_blank'][text()='Машина р/у 1:10 Краулер MZ 2837 +акб']"));
+            name.shouldHave(text("" + text + ""));
+        }
 }
-// assertThat($$(By.target("_blank")).findBy(Condition.exactText("" + text + "")).getText(), equalTo("Страховые полисы");
-// $(By.xpath("//i[@class='" + text + "']")).click();
-//$$(By.xpath("//div/a[@target="_blank"]")).findBy(Condition.exactText("Машина р/у 1:10 Краулер MZ 2837 +акб"));
-//$$(By.target("_blank")).findBy(Condition.exactText("" + text + "")).click();
+
 
 
